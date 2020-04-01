@@ -4,14 +4,16 @@
 #include <fstream>
 #include <cstdlib>
 #include <sstream>
-#include "functions.hpp"
+#include "./functions.hpp"
 
-void PointsFromTxt(string ,string);
+using namespace std;
 
-void PrtTable(string);
+void PointsFromTxt(string ,string[]);
 
-void DrawGraph(string);
+void PrtTable(string[]);
 
-void SaveGraph(string);
+void DrawGraph(string[]);
+
+void SaveGraph(string[]);
 
 #endif
